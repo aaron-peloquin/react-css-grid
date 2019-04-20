@@ -1,0 +1,33 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev \
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\Laptop\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Laptop\AppData\Local\Yarn\bin;C:\Users\Laptop\AppData\Roaming\npm;C:\Users\Laptop\AppData\Local\hyper\app-2.1.2\resources\bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, lstat 'C:\hiberfil.sys'
+
+npm manifest: 
+  {
+    "name": "react-css-grid",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:aaron-peloquin/react-css-grid.git",
+    "author": "Aaron <aaron4uk@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
