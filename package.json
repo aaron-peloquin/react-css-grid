@@ -5,6 +5,9 @@
   "repository": "git@github.com:aaron-peloquin/react-css-grid.git",
   "author": "Aaron <aaron4uk@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
@@ -17,7 +20,7 @@
     "typescript": "^3.4.4"
   },
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6"
   }
 }
