@@ -4,6 +4,8 @@ import * as ReactDOM from 'react-dom'
 console.log('Hello from tsx!')
 
 ReactDOM.render(
-  <p>Hello</p>,
+  <p>Oh hi, Mark</p>,
   document.getElementById('root'),
 )
+
+console.log('Goodbye from tsx!')
