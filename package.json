@@ -8,7 +8,8 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build",
-    "watch": "parcel watch"
+    "watch": "parcel watch",
+    "end": "src/example.js"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "@types/react-dom": "^16.8.4",
+    "puppeteer-core": "^1.14.0",
     "react": "^16.0.0",
     "react-dom": "^16.8.6"
   }
